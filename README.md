@@ -1,4 +1,4 @@
-![run-tests](https://github.com/yurlovaviktoriya/yamdb_final/workflows/run-test/badge.svg)
+![workflow](https://github.com/yurlovaviktoriya/yamdb_final/workflows/run-test/badge.svg)
 
 # YaMDB
 
