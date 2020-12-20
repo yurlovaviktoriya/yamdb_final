@@ -1,4 +1,4 @@
-![workflow](https://github.com/yurlovaviktoriya/yamdb_final/workflows/YaMDB%20workflow/badge.svg)
+(https://github.com/yurlovaviktoriya/yamdb_final/workflows/YaMDB%20workflow/badge.svg)
 
 # YaMDB
 
