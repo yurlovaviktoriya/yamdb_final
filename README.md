@@ -1,4 +1,4 @@
-https://github.com/yurlovaviktoriya/yamdb_final/.github/workflows/yamdb_workflow.yml
+https://github.com/yurlovaviktoriya/yamdb_final/.github/workflows/yamdb_workflow.yml/badge.svg
 
 # YaMDB
 
