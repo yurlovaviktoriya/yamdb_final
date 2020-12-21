@@ -16,8 +16,9 @@ class ReviewSerializer(serializers.ModelSerializer):
         author = validated_data['author']
         title = validated_data['title']
 
-        if (self.context['request'].stream.method == 'POST'
-            and Review.objects.filter(author=author, title=title).exists()):
+        if (self.context['request'].stream.method == 'POST' 
+                and 
+            Review.objects.filter(author=author, title=title).exists()):
             raise serializers.ValidationError('Отзыв уже существует')
         return super().create(validated_data)
 
