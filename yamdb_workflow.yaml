@@ -88,10 +88,10 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           sudo docker pull yurlova/yamdb_final:latest
-          cd yamdb_final
-          docker-compose stop
-          docker-compose rm web
-          docker-compose up -d
+          cd yamdb
+          sudo docker-compose stop
+          sudo docker-compose rm web
+          sudo docker-compose up -d
  
   send_message:
    runs-on: ubuntu-latest
