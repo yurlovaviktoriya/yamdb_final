@@ -25,6 +25,7 @@ services:
     ports:
       - "80:80"
     volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
       - ./static:/yamdb/static/
       - ./media:/yamdb/media/
     depends_on:
