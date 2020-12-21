@@ -87,7 +87,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-          sudo docker pull yurlova/yamdb_final
+          sudo docker pull yurlova/yamdb_final:latest
           cd yamdb_final
           docker-compose stop
           docker-compose rm web
